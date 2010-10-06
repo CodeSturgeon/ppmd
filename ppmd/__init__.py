@@ -15,3 +15,4 @@ def tool():
         html_path = os.path.join(tempdir,'%s.html'%md_filename)
         open(html_path,'w').write(html)
         webbrowser.open(html_path)
+        print '%s -> %s'%(arg,html_path)
